@@ -1,0 +1,17 @@
+li {
+    cursor: pointer;
+    position: relative;
+}
+
+li.checked {
+    text-decoration: line-through;
+    color: grey;
+    position: relative;
+}
+
+.close {
+    color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
